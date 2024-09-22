@@ -1,0 +1,35 @@
+body{
+    transition: all 1200ms ease-in-out !important;
+}
+
+
+
+.btn{
+    font-size: 20px !important;
+    font-weight: bold !important;
+    padding: 20px !important;
+    width: 100px !important;
+    border: 1px solid  !important;
+    border-radius: 30px !important;
+    
+}
+
+.day{
+    background-color: white !important;
+    color: black !important;
+    transition: all 300ms linear !important;
+}
+.night{
+    background-color: black !important;
+    color: white !important;
+    transition: all 300ms linear !important;
+}
+.day:hover{
+    cursor: pointer !important;
+    background-color: rgb(240, 242, 244) !important;
+}
+.night:hover{
+    cursor: pointer !important;
+    background-color: rgb(63, 62, 62) !important;
+    
+}
